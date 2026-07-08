@@ -1,0 +1,83 @@
+                                                                                           HTML Summary
+
+What is HTML?
+
+HTML is not a programming language, it is a markup language.
+HTML is the skeleton of a web page.
+- HTML -----------> HyperText Markup Language. 
+- Works with CSS for design and JavaScript for interactivity.
+- Displays text, images, videos, and links.(in the last version can not support video and audio and the semantic elements )
+------------------------------------------------------------------------------
+HTML works with CSS and JavaScript.
+HTML → Structure
+CSS → Design
+JavaScript → Functionality
+HTML5 introduced semantic tags like:
+<header>
+<nav>
+<section>
+<article>
+<footer>
+-----------------------------------------------------------------------------------
+" Most  Important Meta Tags "
+
+charset :	    Defines the character encoding.
+viewport:	    Makes the page responsive.
+description:	Describes the webpage for search engines.
+keywords:	    Specifies page keywords.
+author:      	Defines the author of the webpage.
+robots:	        Controls search engine indexing.
+theme-color:	Changes the browser theme color.
+refresh:	    Refreshes the page automatically.
+redirect:    	Redirects the user to another page.
+Content-Type:	Defines the document content type.
+----------------------------------------------------------------------------------------------
+Most Important HTML Tags
+
+<Doctype html> :means version 5 of Html.
+<html>      :The root element.
+<head>      : Contains page information like title and meta tags.
+<title>     : Sets the title shown in the browser tab.
+<body>      : Contains all visible content of the page.
+<h1> - <h6> : Headings.
+<p>         : Paragraph.
+<a>         : Creates hyperlinks.
+<img>       : Displays images.
+<ul>        : Unordered list.
+<small>     : Displays smaller text.
+<sup>       : Superscript text.
+<sub>       : Subscript text.
+<q>         : Short quotation.
+<blockquote>: Long quotation.
+<ol>        : Ordered list.
+<li>        : List item.
+<div>       : Groups elements into sections.
+<span>      : Groups inline text.
+<table>     : Creates a table.
+<tr>        : Table row.
+<th>        : Table header cell.
+<td>        : Table data cell.
+<thead>      : Table header section.
+<tbody>      : Table body section.
+<tfoot>      : Table footer section.
+<form>      : Creates forms.
+<input>     : User input.
+<label>     : Label for input.
+<textarea>  : Multi-line text input.
+<fieldset>  : Groups related form elements.
+<legend>    : Title for a fieldset.
+<datalist>  : Provides suggestions for input.
+<select>    : Drop-down list.
+<option>    : Option inside a select.
+<button>    : Creates buttons.
+<figure>    : Groups media with a caption.
+<figcaption>: Caption for a figure.
+<audio>     : Embeds audio.
+<video>     : Embeds video.
+<br>        : break line .
+<hr>        : Horizontal line.
+<header>    : section header.
+<nav>       : Navigation links.
+<section>   : A section of content.
+<article>   : Independent content.
+<footer>    : Page footer.
