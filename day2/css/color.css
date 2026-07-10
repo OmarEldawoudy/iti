@@ -1,0 +1,38 @@
+body{
+    background-image: url(../imgs/pizza.jpg);
+        background-size: cover;
+}
+.main{
+    margin-right: 20px ;
+}
+
+.make-an-order{
+    margin-right: 20px ;
+}
+
+.contact{
+    margin-right: 20px ;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(224, 55, 55);
+}
+
+.color-red{
+    color: rgb(224, 55, 55);
+}
+.color-green{
+    color: rgb(23, 100, 34);
+}
+
+input[type="submit"]{
+    background-color: rgb(200, 40, 40);
+    color: rgb(210, 179, 179);
+
+}
+
+input[type="reset"]{
+    background-color: rgb(200, 40, 40);
+    color: rgb(210, 179, 179);
+}

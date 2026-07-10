@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Goose Bistro | Pizza-on-Demand</title>
+    <link rel="stylesheet" href="./css/color.css">
 </head>
 <body>
     <nav>
-        <a href="#">Main</a>
-        <a href="#">Make an Order</a>
-        <a href="#">Contact Us</a>
+        <a href="#" class="main">Main</a>
+        <a href="#" class="make-an-order">Make an Order</a>
+        <a href="#" class="contact">Contact Us</a>
     </nav>
-    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
-    <p>
+    <h1 class="color-red">Black Goose Bistro | Pizza-on-Demand</h1>
+    <p class="test">
         Our 12" wood-fired pizza are available for delivery,
         build your custom pizza and we'll deliver it within an hour.
     </p>
+
+
+   
     <form>
-        <fieldset>
+        <fieldset class="color-green">
             <legend>Your Information</legend>
             <label for="name">Name</label>
             <input type="text" id="name" name="name">
@@ -43,11 +47,11 @@
 
         <h1>Design Your Dream Pizza:</h1>
 
-        <fieldset>
+        <fieldset class="color-green">
         <!--this fieldset contains the three fieldset
         (crust , toppings and number)  -->
             <legend>Pizza specs</legend>
-            <fieldset>
+            <fieldset >
                 <legend>Crust (Choose one):</legend>
                 <input type="radio" id="classic" name="crust">
                 <label for="classic">Classic White</label>
@@ -63,7 +67,7 @@
             </fieldset>
 
             <br>
-            <fieldset>
+            <fieldset ">
 
                 <legend>Toppings (Choose as many as you want):</legend>
                 <input type="checkbox" id="red">
@@ -90,7 +94,7 @@
             </fieldset>
             <br>
 
-            <fieldset>
+            <fieldset >
 
                 <legend>Number</legend>
                 <label for="num">How many pizzas:</label>
@@ -104,8 +108,10 @@
 
         </fieldset>
         <br>
-        <input type="submit" value="Bring me a pizza!">
-        <input type="reset" value="Reset">
+        <div>
+            <input type="submit" value="Bring me a pizza!">
+            <input type="reset" value="Reset">
+        </div>
     </form>
 </body>
 </html>
