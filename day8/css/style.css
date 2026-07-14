@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+
+}
+.container{
+    background-image: url(../imges/bakery2.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: rgba(255, 255, 255, 0.971);
+}
+.font {
+    background-color: rgb(255, 228, 196, 0.22);
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    transition-property: margin-top;
+        transition-duration: 1s;
+}
+
+.nav a:hover {
+    margin-top: 30px;
+}
+
+.bt {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+button {
+    border-radius: 20%;
+    background-color: rgba(139, 72, 22, 0.956);
+}
+
+button:hover {
+    background-color: coral;
+}
+
+main {
+    background-color: hsla(33, 78%, 91%, 0.403);
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+main img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+main p {
+    padding-left: 20px;
+}
