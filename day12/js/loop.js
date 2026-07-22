@@ -52,49 +52,60 @@
 
 // !-----loop-----------
 
-for (var i = 1; i<=12; i++)
-{
-    console.log(`7 * ${i} =${7 * i}`);
+// for (var i = 1; i<=12; i++)
+// {
+//     console.log(`7 * ${i} =${7 * i}`);
+// }
+
+// var i = 0;
+// do {
+//     console.log(`the counter is ${i}`);
+// } while (i<10);
+
+// //----------------------
+// (function call() {
+//     console.log = (`hello omar`);    
+
+// })()
+
+// var user = {
+//     full_name: "omar ismail",
+//     age: 21,
+//     job: "developer",
+//     salary: 100000,
+//     married: false,
+//     eat: function (meal)
+//     {
+//         console.log(`iam eating ${meal}`);
+//     },
+
+//     bro: {
+//         full_name: "Mo7med ismail",
+//         age: 30,
+//         job: "Eng",
+//         salary: 1000000000,
+//         married: true
+//     },
+
+// };
+// console.log(user.full_name);
+// console.log(user.job);
+
+// console.log(user.bro.full_name);
+// console.log(user.bro.job);
+// console.log(user.eat("salad"));
+
+
+
+let h2Element = document.querySelectorAll("h2.demo");
+
+function sayhello(user) {
+    alert(`hello ${user}`);
 }
 
-var i = 0;
-do {
-    console.log(`the counter is ${i}`);
-} while (i<10);
-
-//----------------------
-(function call() {
-    console.log = (`hello omar`);    
-
-})()
-
-var user = {
-    full_name: "omar ismail",
-    age: 21,
-    job: "developer",
-    salary: 100000,
-    married: false,
-    eat: function (meal)
-    {
-        console.log(`iam eating ${meal}`);
-    },
-
-    bro: {
-        full_name: "Mo7med ismail",
-        age: 30,
-        job: "Eng",
-        salary: 1000000000,
-        married: true
-    },
-
-};
-console.log(user.full_name);
-console.log(user.job);
-
-console.log(user.bro.full_name);
-console.log(user.bro.job);
-console.log(user.eat("salad"));
-
-
-
-
+for (let i = 0; i < h2Element.length; i++)
+{
+    h2Element[i].addEventListener("click", function () {
+        sayhello("omar");
+    });
+}
