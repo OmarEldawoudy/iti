@@ -8,7 +8,7 @@ export default function Hero () {
             setOpen(!open);
         }
     return (
-        <>
+        <> 
             
             <div className="row">
                 <div className="col-4">

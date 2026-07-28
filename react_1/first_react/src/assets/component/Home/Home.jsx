@@ -8,7 +8,7 @@ export default function Home() {
         setName(name);
     }
 
-
+ 
     const [counter, setCounter] = useState(0);
     function increase() {
         setCounter(counter + 1);
