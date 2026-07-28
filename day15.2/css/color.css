@@ -1,0 +1,41 @@
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-items:center;
+
+}
+
+.add {
+    background-color: rgba(22, 22, 223, 0.86);
+    color:antiquewhite
+}
+
+
+/* .edit
+{
+    background-color: rgba(32, 170, 32, 0.86);
+    color: antiquewhite;
+    margin-left: 58px
+
+}
+
+.del {
+    background-color: rgba(165, 33, 0, 0.86);
+    color: antiquewhite;
+} */
+
+.row{
+    margin-top: 20px;
+    
+}
+
+/* .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+} */
